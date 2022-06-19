@@ -1,0 +1,62 @@
+.block{
+   background-color: #146600;
+   width: 750px;
+   margin: auto; 
+}
+
+main{
+    background-color: #85FE71;
+}
+
+h1{
+    padding-left: 295px;
+}
+
+ol li {
+    padding-left: 316px;
+}
+
+.logo{
+    padding-left: 368px;
+}
+
+.horizontal{
+    border: black 1px solid;
+}
+
+.obertka{
+    background-color: #00A006;
+    padding-left: 109px;
+    padding-right: 138px;
+    padding-top: 48px;
+    padding-bottom: 54px;
+}
+
+.text{
+    padding: 18px;
+    background-color: #01CB15;
+}
+
+p,H1,li{
+    color: white;
+}
+
+.icon{
+    padding-left: 12px;
+    padding-top: 21px;
+    padding-right: 11px;
+    padding-bottom: 53px;
+    display: inline-block;
+}
+
+.vertikal{
+    border: #ffffff 1px solid;
+    margin-left:11px; 
+    width: 3px;
+    height:107px;
+    display: inline-block
+}
+
+p{
+    display: inline-block;
+}
