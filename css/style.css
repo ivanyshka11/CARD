@@ -1,62 +1,99 @@
-.block{
-   background-color: #146600;
-   width: 750px;
-   margin: auto; 
+.block {
+    background-color: #146600;
+    width: 750px;
+    height: 749px;
+    margin: auto;
 }
 
-main{
+main {
     background-color: #85FE71;
+    height: 1024px;
 }
 
-h1{
+h1 {
     padding-left: 295px;
+    line-height: 27px;
+    width: 72px;
 }
 
 ol li {
     padding-left: 316px;
 }
 
-.logo{
-    padding-left: 368px;
+ol li:last-of-type {
+    padding-bottom: 45px;
 }
 
-.horizontal{
+.horizontal {
     border: black 1px solid;
 }
 
-.obertka{
+.obertka {
     background-color: #00A006;
-    padding-left: 109px;
-    padding-right: 138px;
-    padding-top: 48px;
-    padding-bottom: 54px;
+    margin-left: 109px;
+    margin-right: 138px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+    width: 508px;
+    height: 175px;
 }
 
-.text{
-    padding: 18px;
+.text {
+    margin: 18px;
+    padding-top: 18px;
+    margin-bottom: 18px;
     background-color: #01CB15;
+    height: 120px;
+    width: 472px;
+    position: absolute;
 }
 
-p,H1,li{
+p,
+H1,
+li {
     color: white;
 }
 
-.icon{
-    padding-left: 12px;
-    padding-top: 21px;
-    padding-right: 11px;
-    padding-bottom: 53px;
+.icon {
+    margin-left: 12px;
+    margin-top: 21px;
+    margin-right: 11px;
+    margin-bottom: 53px;
     display: inline-block;
 }
 
-.vertikal{
+.vertikal {
     border: #ffffff 1px solid;
-    margin-left:11px; 
-    width: 3px;
-    height:107px;
-    display: inline-block
+    width: 2px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
-p{
-    display: inline-block;
+p {
+    display: inline-flex;
+    font-size: 32px;
+    width: 208px;
+    flex-direction: row;
+    padding-left: 38px;
+}
+
+.first {
+    background-color: #85FE71;
+    height: 150px;
+    padding-top: 40px;
+}
+
+.logo {
+    padding-left: 67px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+}
+
+.p{
+    width: 208px;
+    height: 81px;
 }
