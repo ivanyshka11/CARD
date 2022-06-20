@@ -1,8 +1,10 @@
 .block {
+    border-radius: 33px;
     background-color: #146600;
     width: 750px;
     height: 749px;
     margin: auto;
+    border-radius: 33px;
 }
 
 main {
@@ -26,6 +28,8 @@ ol li:last-of-type {
 
 .horizontal {
     border: black 1px solid;
+    width:533px;
+    margin: auto;
 }
 
 .obertka {
@@ -36,6 +40,7 @@ ol li:last-of-type {
     margin-bottom: 54px;
     width: 508px;
     height: 175px;
+    border-radius: 45px
 }
 
 .text {
@@ -46,6 +51,8 @@ ol li:last-of-type {
     height: 120px;
     width: 472px;
     position: absolute;
+    border-radius: 45px;
+    overflow: auto;
 }
 
 p,
@@ -60,23 +67,25 @@ li {
     margin-right: 11px;
     margin-bottom: 53px;
     display: inline-block;
+    float: left;
 }
 
 .vertikal {
     border: #ffffff 1px solid;
     width: 2px;
     height: 80px;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
 }
 
 p {
     display: inline-flex;
     font-size: 32px;
-    width: 208px;
     flex-direction: row;
     padding-left: 38px;
-}
+    justify-content: end;
+} 
 
 .first {
     background-color: #85FE71;
@@ -91,9 +100,26 @@ p {
 a{
     text-decoration: none;
     color: rgb(0, 60, 255);
+    font-size: 32px;
 }
 
 .p{
-    width: 208px;
-    height: 81px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 36px;
+    padding-top: 0px;
+    position: absolute top 50px;
+}
+
+.logotips{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 95px;
+    padding-top: 20px;
+}
+
+.logotips:hover{
+    scale: 0.1;
 }
